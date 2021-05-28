@@ -81,6 +81,7 @@ class App extends React.Component{
     return (
       <div className="SelectedWeekExample">
         <DayPicker
+          numberOfMonths={2}
           selectedDays={selectedDays}
           showWeekNumbers
           showOutsideDays
